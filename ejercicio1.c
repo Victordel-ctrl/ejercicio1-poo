@@ -2,10 +2,13 @@
 
 int main (){
     int a,b,c;
-    printf("inserte un numero");
-    scanf("%d")
+    printf("inserte numeros: ");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    c=a+b;
 
 
 
-}
 return 0;
+}
+
