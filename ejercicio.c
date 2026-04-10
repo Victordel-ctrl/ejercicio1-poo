@@ -7,7 +7,7 @@ int main() {
         printf("Ingrese la nota del primer parcial: ");
         scanf("%f", &parcial1);
         if (parcial1 < 0 || parcial1 > 20) {
-            printf("Error: la nota debe estar entre 0 y 20.\n");
+            printf("Error.\n");
         }
     } while (parcial1 < 0 || parcial1 > 20);
 
@@ -15,7 +15,7 @@ int main() {
         printf("Ingrese la nota del segundo parcial: ");
         scanf("%f", &parcial2);
         if (parcial2 < 0 || parcial2 > 20) {
-            printf("Error: la nota debe estar entre 0 y 20.\n");
+            printf("Error.\n");
         }
     } while (parcial2 < 0 || parcial2 > 20);
 
