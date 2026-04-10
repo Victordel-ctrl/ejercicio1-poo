@@ -26,7 +26,7 @@ int main() {
     if (promedio < 11) {
         printf("Reprobado\n");
     } else if (promedio >= 11 && promedio <= 13.99){
-        printf("Supletorios\n");
+        printf("Usted va a supletorios.\n");
     } else {
         printf("Usted aprobo.");
     }
